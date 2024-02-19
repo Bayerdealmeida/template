@@ -33,15 +33,16 @@ body {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     justify-content: center;
+    display: flex;
 }
 .title {
     text-align: left;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 25px;
     color: rgb(90,39,131);
-    transform: translateX(-30px);
 }
-.formulario {
+.formulario2 {
     font-size: 17px;
     display: flex;
     flex-direction: column;
@@ -49,10 +50,17 @@ body {
     padding: 0px;
     color: #0000009f;
 }
+.formulario1 {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    color: #0000009f;
+}
 .formulario label{
-    padding: 10px;   
+    padding-top: 10px;
+    padding-bottom: 10px;   
     text-align: left;
-    transform: translateX(-50px);
 }
 .formulario input {
     border-bottom: 1px solid #00000060;
